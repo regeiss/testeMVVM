@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E127D48827FBBB75004CE024 /* teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127D48827FBBB75004CE024 /* testeMVVMMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeMVVMMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E127D48B27FBBB75004CE024 /* testeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeApp.swift; sourceTree = "<group>"; };
 		E127D48D27FBBB75004CE024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E127D48F27FBBB7A004CE024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		E127D47F27FBBB75004CE024 = {
 			isa = PBXGroup;
 			children = (
-				E127D48A27FBBB75004CE024 /* teste */,
+				E127D48A27FBBB75004CE024 /* testeMVVM */,
 				E127D48927FBBB75004CE024 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,22 @@
 		E127D48927FBBB75004CE024 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E127D48827FBBB75004CE024 /* teste.app */,
+				E127D48827FBBB75004CE024 /* testeMVVMMVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E127D48A27FBBB75004CE024 /* teste */ = {
+		E127D48A27FBBB75004CE024 /* testeMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				E127D49A27FD0CAD004CE024 /* Base */,
+				E127D49927FD0C9F004CE024 /* Feature */,
 				E127D48B27FBBB75004CE024 /* testeApp.swift */,
 				E127D48D27FBBB75004CE024 /* ContentView.swift */,
 				E127D48F27FBBB7A004CE024 /* Assets.xcassets */,
 				E127D49127FBBB7A004CE024 /* Preview Content */,
 			);
-			path = teste;
+			path = testeMVVM;
 			sourceTree = "<group>";
 		};
 		E127D49127FBBB7A004CE024 /* Preview Content */ = {
@@ -67,12 +69,98 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E127D49927FD0C9F004CE024 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E127D49E27FD0E5A004CE024 /* Quotes */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		E127D49A27FD0CAD004CE024 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E127D49D27FD0CF2004CE024 /* Extensions */,
+				E127D49C27FD0CDD004CE024 /* Views */,
+				E127D49B27FD0CCA004CE024 /* Constants */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E127D49B27FD0CCA004CE024 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E127D49C27FD0CDD004CE024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E127D49D27FD0CF2004CE024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E127D49E27FD0E5A004CE024 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				E127D4A227FD0E9A004CE024 /* View */,
+				E127D49F27FD0E65004CE024 /* Model */,
+				E127D4A327FD0EA1004CE024 /* ViewModel */,
+				E127D4A127FD0E7E004CE024 /* Service */,
+				E127D4A027FD0E73004CE024 /* Screen */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		E127D49F27FD0E65004CE024 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E127D4A027FD0E73004CE024 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E127D4A127FD0E7E004CE024 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E127D4A227FD0E9A004CE024 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E127D4A327FD0EA1004CE024 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E127D48727FBBB75004CE024 /* teste */ = {
+		E127D48727FBBB75004CE024 /* testeMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E127D49627FBBB7A004CE024 /* Build configuration list for PBXNativeTarget "teste" */;
+			buildConfigurationList = E127D49627FBBB7A004CE024 /* Build configuration list for PBXNativeTarget "testeMVVM" */;
 			buildPhases = (
 				E127D48427FBBB75004CE024 /* Sources */,
 				E127D48527FBBB75004CE024 /* Frameworks */,
@@ -82,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = teste;
+			name = testeMVVM;
 			productName = teste;
-			productReference = E127D48827FBBB75004CE024 /* teste.app */;
+			productReference = E127D48827FBBB75004CE024 /* testeMVVMMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E127D48327FBBB75004CE024 /* Build configuration list for PBXProject "teste" */;
+			buildConfigurationList = E127D48327FBBB75004CE024 /* Build configuration list for PBXProject "testeMVVM" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E127D48727FBBB75004CE024 /* teste */,
+				E127D48727FBBB75004CE024 /* testeMVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -280,8 +368,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgeiss.teste;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgeiss.testeMVVM;
+				PRODUCT_NAME = testeMVVMMVVM;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,8 +397,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgeiss.teste;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgeiss.testeMVVM;
+				PRODUCT_NAME = testeMVVMMVVM;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E127D48327FBBB75004CE024 /* Build configuration list for PBXProject "teste" */ = {
+		E127D48327FBBB75004CE024 /* Build configuration list for PBXProject "testeMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E127D49427FBBB7A004CE024 /* Debug */,
@@ -329,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E127D49627FBBB7A004CE024 /* Build configuration list for PBXNativeTarget "teste" */ = {
+		E127D49627FBBB7A004CE024 /* Build configuration list for PBXNativeTarget "testeMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E127D49727FBBB7A004CE024 /* Debug */,
