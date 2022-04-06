@@ -1,9 +1,4 @@
-//
-//  View+Preview.swift
-//  View+Preview
-//
-//  Created by Tunde on 20/07/2021.
-//
+
 
 import SwiftUI
 
