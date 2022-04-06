@@ -11,6 +11,10 @@
 		E127D48E27FBBB75004CE024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127D48D27FBBB75004CE024 /* ContentView.swift */; };
 		E127D49027FBBB7A004CE024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127D48F27FBBB7A004CE024 /* Assets.xcassets */; };
 		E127D49327FBBB7A004CE024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127D49227FBBB7A004CE024 /* Preview Assets.xcassets */; };
+		E127D4A527FD0F83004CE024 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127D4A427FD0F83004CE024 /* Quote.swift */; };
+		E127D4A727FD123A004CE024 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127D4A627FD123A004CE024 /* QuotesViewModel.swift */; };
+		E127D4A927FD12BB004CE024 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127D4A827FD12BB004CE024 /* QuotesService.swift */; };
+		E127D4AB27FD157D004CE024 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127D4AA27FD157D004CE024 /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E127D48D27FBBB75004CE024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E127D48F27FBBB7A004CE024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E127D49227FBBB7A004CE024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E127D4A427FD0F83004CE024 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E127D4A627FD123A004CE024 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		E127D4A827FD12BB004CE024 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
+		E127D4AA27FD157D004CE024 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 		E127D49B27FD0CCA004CE024 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				E127D4AA27FD157D004CE024 /* APIConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 		E127D49F27FD0E65004CE024 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E127D4A427FD0F83004CE024 /* Quote.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +147,7 @@
 		E127D4A127FD0E7E004CE024 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				E127D4A827FD12BB004CE024 /* QuotesService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -151,6 +162,7 @@
 		E127D4A327FD0EA1004CE024 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E127D4A627FD123A004CE024 /* QuotesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,7 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E127D4A927FD12BB004CE024 /* QuotesService.swift in Sources */,
 				E127D48E27FBBB75004CE024 /* ContentView.swift in Sources */,
+				E127D4AB27FD157D004CE024 /* APIConstants.swift in Sources */,
+				E127D4A727FD123A004CE024 /* QuotesViewModel.swift in Sources */,
+				E127D4A527FD0F83004CE024 /* Quote.swift in Sources */,
 				E127D48C27FBBB75004CE024 /* testeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
