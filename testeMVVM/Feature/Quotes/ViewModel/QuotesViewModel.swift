@@ -9,7 +9,7 @@ import Foundation
 
 protocol QuotesViewModel: ObservableObject
 {
-    func getRandomQuotes() async
+    func getAllQuotes() async
 }
 
 @MainActor
