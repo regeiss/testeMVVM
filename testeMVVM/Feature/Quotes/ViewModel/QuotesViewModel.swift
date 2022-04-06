@@ -23,7 +23,7 @@ final class QuotesViewModelImpl: QuotesViewModel
         self.service = service
     }
     
-    func getRandomQuotes() async
+    func getAllQuotes() async
     {
         do
         {
