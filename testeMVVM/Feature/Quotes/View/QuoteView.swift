@@ -17,11 +17,12 @@ struct QuoteView: View {
             HStack {
                 Image(systemName: "tv")
                     .font(.system(size: 12, weight: .black))
-                Text(item.anime)
+                Text(item.userId)
             }
-
-            Text(makeAttributedString(title:"Character", label: item.character))
-            Text(makeAttributedString(title:"Quotes", label: item.quote))
+            
+            Text(makeAttributedString(title:"Character", label: item.id))
+            Text(makeAttributedString(title:"Character", label: item.title))
+            Text(makeAttributedString(title:"Quotes", label: item.body))
         }
         .padding()
         .foregroundColor(.black)
